@@ -21,6 +21,7 @@ To implement Opening and Closing using Python and OpenCV.
 5. Apply closing operation.
  
 ## Program:
+~~~
 
 # Import necessary packages
 import numpy as np
@@ -38,19 +39,17 @@ cv2.imshow("Closing Image",image1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-```
+~~~
 ## Output:
 
 ### Display the input Image
-![hk1](https://user-images.githubusercontent.com/94525701/174123976-e71c68a3-06aa-4e40-92fd-59041afd8120.jpeg)
+![](hk1.jpeg)
 
 
 ### Display the result of Opening
-![hk2](https://user-images.githubusercontent.com/94525701/174123995-3be9b2cc-deb6-49e1-9290-8395e320c298.jpeg)
-
+![](hk2.jpeg)
 
 ### Display the result of Closing
-![hk3](https://user-images.githubusercontent.com/94525701/174124028-18343cc8-c35c-49c2-b9b7-c47d88b6a4af.jpeg)
-
+![](hk3.jpeg)
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
