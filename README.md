@@ -29,7 +29,7 @@ import cv2
 import matplotlib.pyplot as plt
 img1=np.zeros((100,500),dtype='uint8')
 font=cv2.FONT_HERSHEY_COMPLEX_SMALL
-im=cv2.putText(img1,' SANATH ',(5,70),font,2,(255),5,cv2.LINE_AA)
+im=cv2.putText(img1,' vivek ',(5,70),font,2,(255),5,cv2.LINE_AA)
 cv2.imshow("Input Image",im)
 Kernel=cv2.getStructuringElement(cv2.MORPH_CROSS,(11,11))
 image1=cv2.morphologyEx(im,cv2.MORPH_OPEN,Kernel)
